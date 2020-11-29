@@ -1,0 +1,55 @@
+body{
+  margin:0;
+}
+.header{
+  position: relative;
+  background-color:#ffffff;
+  height:45px;
+  width:auto;
+  border-style:ridge;
+}
+.fa-user-circle{
+  position: absolute;
+  right: 0;
+  margin: 5px 10px;
+}
+.login-btn{
+  position: absolute;
+  right:0;
+  margin: 5px 10px;
+}
+.box{
+  display: none;
+  border-style: ridge;
+  background-color: #ffffff;
+  float:right;
+  margin-top: 43px;
+  margin-right: 10px;
+  height:300px;
+  width:200px;
+}
+.box:hover{
+  display: block;
+}
+.fa-user-circle:hover  + .box{
+  display: block;
+}
+.in-box{
+  border-bottom-style: ridge;
+  text-align: center;
+  background-color: #2a363b;
+  padding-top: 10px;
+  color:white;
+}
+.box-link{
+  color:#2a363b;
+  text-decoration: none;
+  margin-top:20px;
+}
+.link{
+  text-decoration: none;
+  color:#2a363b;
+}
+.link:hover{
+  color:#3fbac2;
+}
